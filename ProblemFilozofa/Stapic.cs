@@ -7,7 +7,7 @@ namespace PhilosopherProblem
     class Stapic
     {
         public int Id { get; set; }
-        public Mutex Mutex { get; set; } = new Mutex();
+        public Mutex Mutex { get; init; } = new Mutex();
         public static List<Stapic> InicijalizujStapice(int n)
         {
             return Enumerable.Range(1, n).ToList().Select(i => new Stapic { Id = i }).ToList();
