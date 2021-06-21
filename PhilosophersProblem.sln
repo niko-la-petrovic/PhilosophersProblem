@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProblemFilozofa.Test", "ProblemFilozofa.Test\ProblemFilozofa.Test.csproj", "{C18B2078-9AC1-4CF6-A13E-BBA503CE14FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhilosophersProblem.Test", "PhilosophersProblem.Test\PhilosophersProblem.Test.csproj", "{C18B2078-9AC1-4CF6-A13E-BBA503CE14FC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProblemFilozofa", "ProblemFilozofa\ProblemFilozofa.csproj", "{17E3E074-AA9F-469A-8AE7-B05091E7A2C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhilosophersProblem", "PhilosophersProblem\PhilosophersProblem.csproj", "{17E3E074-AA9F-469A-8AE7-B05091E7A2C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

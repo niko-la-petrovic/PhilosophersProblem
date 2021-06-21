@@ -20,7 +20,7 @@ namespace ProblemFilozofa.Test
         [Parallelizable(ParallelScope.Self)]
         public void ProgramNTest([ValueSource(nameof(ValidNumbersToTest))] int n)
         {
-            PhilosopherProblem.Program.PokreniProblem(n);
+            PhilosopherProblem.Program.Start(n);
         }
 
         [Test]
@@ -30,7 +30,7 @@ namespace ProblemFilozofa.Test
             Assert.Throws(
                 Is.TypeOf<ArgumentException>()
                     .Or.TypeOf<ArgumentOutOfRangeException>(),
-                () => PhilosopherProblem.Program.PokreniProblem(n));
+                () => PhilosopherProblem.Program.Start(n));
         }
 
         public static List<int> InvalidNumbersToTest()

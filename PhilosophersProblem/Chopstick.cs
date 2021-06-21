@@ -4,13 +4,13 @@ using System.Threading;
 
 namespace PhilosopherProblem
 {
-    class Stapic
+    class Chopstick
     {
         public int Id { get; set; }
         public Mutex Mutex { get; init; } = new Mutex();
-        public static List<Stapic> InicijalizujStapice(int n)
+        public static List<Chopstick> InitializeChopsticks(int n)
         {
-            return Enumerable.Range(1, n).ToList().Select(i => new Stapic { Id = i }).ToList();
+            return Enumerable.Range(1, n).ToList().Select(i => new Chopstick { Id = i }).ToList();
         }
 
         public override string ToString()
